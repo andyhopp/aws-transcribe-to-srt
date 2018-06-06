@@ -1,0 +1,34 @@
+{
+  "name": "aws-transcribe-to-srt",
+  "version": "0.1.0",
+  "description": "Turn JSON from AWS Transcribe into SRT files for use as subtitles.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andyhopp/aws-transcribe-to-srt.git"
+  },
+  "author": "Andy Hopper <andyhopp@amazon.com> (https://aws.amazon.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andyhopp/aws-transcribe-to-srt/issues"
+  },
+  "homepage": "https://github.com/andyhopp/aws-transcribe-to-srt#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "async": "^2.6.0",
+    "prompt-sync": "^4.1.5"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [
+    "AWS",
+    "Transcribe",
+    "SRT",
+    "captions",
+    "subtitles"
+  ]
+}
